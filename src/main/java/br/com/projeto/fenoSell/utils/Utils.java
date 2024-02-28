@@ -1,4 +1,4 @@
-package br.com.projeto.lista.utils;
+package br.com.projeto.fenoSell.utils;
 
 import java.beans.PropertyDescriptor;
 import java.util.HashSet;

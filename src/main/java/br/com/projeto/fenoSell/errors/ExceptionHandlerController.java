@@ -1,4 +1,4 @@
-package br.com.projeto.lista.errors;
+package br.com.projeto.fenoSell.errors;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

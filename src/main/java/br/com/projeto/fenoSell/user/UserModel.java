@@ -1,4 +1,4 @@
-package br.com.projeto.lista.user;
+package br.com.projeto.fenoSell.user;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -12,7 +12,7 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 @Data
-@Entity(name="tb_users")
+@Entity(name="TB_USERS")
 public class UserModel {
 
     @Id

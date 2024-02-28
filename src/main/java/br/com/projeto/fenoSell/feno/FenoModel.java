@@ -1,4 +1,4 @@
-package br.com.projeto.lista.task;
+package br.com.projeto.fenoSell.feno;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -11,8 +11,8 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 @Data
-@Entity(name = "tb_tasks")
-public class TaskModel {
+@Entity(name = "TB_FENO")
+public class FenoModel {
     
     @Id
     @GeneratedValue(generator = "UUID")
@@ -21,10 +21,12 @@ public class TaskModel {
     
     @Column(length = 50)
     private String titulo;
-    private LocalDateTime startAt;
-    private LocalDateTime endAt;
-    private String prioridade;
-    
+    private LocalDateTime dataCorte;
+    private Long preço;
+    private String local;
+    private String telefone;
+    private String email;
+
     private UUID idUser;
 
     @CreationTimestamp

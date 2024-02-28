@@ -1,4 +1,4 @@
-package br.com.projeto.lista.user;
+package br.com.projeto.fenoSell.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -32,7 +32,7 @@ public class UserController {
         userModel.setPassword(passwordHashred);
 
         var userCreated = this.userRepository.save(userModel);
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(userCreated);
+        return ResponseEntity.status(HttpStatus.CREATED).body(userCreated);
     }
 
 }

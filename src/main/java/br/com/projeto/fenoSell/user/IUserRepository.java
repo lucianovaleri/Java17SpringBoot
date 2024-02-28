@@ -1,4 +1,4 @@
-package br.com.projeto.lista.user;
+package br.com.projeto.fenoSell.user;
 
 import java.util.UUID;
 

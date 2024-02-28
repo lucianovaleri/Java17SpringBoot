@@ -1,4 +1,4 @@
-package br.com.projeto.lista;
+package br.com.projeto.fenoSell;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

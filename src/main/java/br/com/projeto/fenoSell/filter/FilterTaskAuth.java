@@ -1,4 +1,4 @@
-package br.com.projeto.lista.filter;
+package br.com.projeto.fenoSell.filter;
 
 import java.io.IOException;
 import java.util.Base64;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
-import br.com.projeto.lista.user.IUserRepository;
+import br.com.projeto.fenoSell.user.IUserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
