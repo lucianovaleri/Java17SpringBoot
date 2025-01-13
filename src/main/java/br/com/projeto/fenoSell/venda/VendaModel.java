@@ -32,4 +32,69 @@ public class VendaModel {
     
     @CreationTimestamp
     private LocalDateTime createAt;
+
+	public UUID getId() {
+		return id;
+	}
+
+	public void setId(UUID id) {
+		this.id = id;
+	}
+
+	public FenoModel getFeno() {
+		return feno;
+	}
+
+	public void setFeno(FenoModel feno) {
+		this.feno = feno;
+	}
+
+	public Long getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(Long quantidade) {
+		this.quantidade = quantidade;
+	}
+
+	public Long getValores() {
+		return valores;
+	}
+
+	public void setValores(Long valores) {
+		this.valores = valores;
+	}
+
+	public LocalDate getDataHoraVenda() {
+		return dataHoraVenda;
+	}
+
+	public void setDataHoraVenda(LocalDate dataHoraVenda) {
+		this.dataHoraVenda = dataHoraVenda;
+	}
+
+	public UUID getVendedor() {
+		return vendedor;
+	}
+
+	public void setVendedor(UUID vendedor) {
+		this.vendedor = vendedor;
+	}
+
+	public UUID getComprador() {
+		return comprador;
+	}
+
+	public void setComprador(UUID comprador) {
+		this.comprador = comprador;
+	}
+
+	public LocalDateTime getCreateAt() {
+		return createAt;
+	}
+
+	public void setCreateAt(LocalDateTime createAt) {
+		this.createAt = createAt;
+	}
+    
 }

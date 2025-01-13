@@ -10,7 +10,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-@Data
 @Entity(name = "TB_FENO")
 public class FenoModel {
     
@@ -38,5 +37,85 @@ public class FenoModel {
         }
         this.titulo = title;
     }
+
+	public UUID getId() {
+		return id;
+	}
+
+	public void setId(UUID id) {
+		this.id = id;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+	public LocalDateTime getDataCorte() {
+		return dataCorte;
+	}
+
+	public void setDataCorte(LocalDateTime dataCorte) {
+		this.dataCorte = dataCorte;
+	}
+
+	public Long getPreço() {
+		return preço;
+	}
+
+	public void setPreço(Long preço) {
+		this.preço = preço;
+	}
+
+	public String getLocal() {
+		return local;
+	}
+
+	public void setLocal(String local) {
+		this.local = local;
+	}
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public UUID getIdUser() {
+		return idUser;
+	}
+
+	public void setIdUser(UUID idUser) {
+		this.idUser = idUser;
+	}
+
+	public LocalDateTime getCreatedAt() {
+		return createdAt;
+	}
+
+	public void setCreatedAt(LocalDateTime createdAt) {
+		this.createdAt = createdAt;
+	}
     
 }
